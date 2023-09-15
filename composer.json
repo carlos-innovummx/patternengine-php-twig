@@ -24,9 +24,22 @@
 		}
 	},
 	"require": {
-		"pattern-lab/core": "^2.0.0",
+		"carlos-innovummx/patternlab-php-core": "dev-master",
 		"twig/twig":        "~1.0"
 	},
+	"repositories": [
+		{
+		  "type": "package",
+		  "package": {
+			"name": "carlos-innovummx/patternlab-php-core",
+			"version": "dev-master",
+			"dist": {
+			  "url": "https://github.com/carlos-innovummx/patternlab-php-core/archive/refs/heads/develop.zip",
+			  "type": "zip"
+			}
+		  }
+		}
+	],
 	"extra": {
 		"patternlab": {
 			"config": {
